@@ -17,10 +17,10 @@ function AlbumsShow(props) {
     }, []);
 
     const handleEdit = (album) => {
-    // Set the selected album and open the edit modal
-    setSelectedAlbum(album);
-    setEditedTitle(album.title);
-    setShowEditModal(true);
+        // Set the selected album and open the edit modal
+        setSelectedAlbum(album);
+        setEditedTitle(album.title);
+        setShowEditModal(true);
   };
 
   const handleDelete = (album) => {
